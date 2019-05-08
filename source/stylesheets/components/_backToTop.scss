@@ -1,0 +1,37 @@
+
+.backToTop {
+    padding: 0px 19px;
+    border: none;
+    border-radius: 50%;
+    height: 52px;
+
+    opacity: 0.8;
+    -webkit-transition: visibility 0.2s, opacity 0.2s;
+    transition: visibility 0.2s, opacity 0.2s;
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    cursor: pointer;
+
+    font: 14px/1 Tahoma, Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-size: 20px;
+
+   transition: width 1s, background 0.5s 0.1s;
+}
+
+.backToTop:hover {
+
+}
+
+
+
+
+
+.backToTop.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
