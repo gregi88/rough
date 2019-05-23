@@ -1,5 +1,36 @@
-#about {
+
+
+.map {
+  border: none;
+  position: relative;
+  top: 6em;
+}
+.fb {
+  position: relative;
+  top: 6em;
+}
+.insta {
+  position: relative;
+  top: 6em;
+}
+
+.cover {
+  text-align: center;
+    position: relative;
+    top: -3em;
+    z-index: 999999 !important;
+    background-color: $light-gray;
+    width: 100vw;
+    height: 81px;
+}
+
+.fb-page {
+  text-align: center;
+}
+
+.about {
   height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -21,12 +52,7 @@
     font-weight: bold;
     color: rgba(0,0,0,0.6);
   }
-  a {
-    color: rgba(0,0,0,0.25);
-    font-weight: bold;
-    letter-spacing: -0.5px;
-    font-size: 15px;
-  }
+
   .fa-heart {
     color: #D23333;
   }
@@ -49,6 +75,6 @@
       top:0;
       height:100%;
       width:100%;
-      position:absolute;
+      position: absolute;
     }
 

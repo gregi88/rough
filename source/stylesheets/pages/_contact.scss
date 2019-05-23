@@ -1,23 +1,24 @@
+
+
+
 .container1 {
+  position: relative;
+    top: 26px;
+/*
   text-align: center;
   height: 100vh;
   justify-content: center;
   align-items: center;
-  /*
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("mac.jpg");
-  */
-  position: relative;
-  top: 2em;
-  background-image: url("/images/form2.jpg");
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("/images/form2.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
  }
 
 .width {
   max-width: 450px;
   max-height: 500px;
   position: relative;
-  top: 2em;
+  top: 4em;
 
 }
 
@@ -27,7 +28,7 @@
     z-index: 0;
     position: relative;
     left: 3em;
-    top: -1.5em;
+    top: -23px;
     color: white;
     margin-left: -3em;
     margin-right: 3em;

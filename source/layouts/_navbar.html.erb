@@ -1,45 +1,198 @@
 
 
-<div class="navbar-wagon navbar-home ">
 
-  <!-- Logo -->
-  <a href="/" class="navbar-wagon-brand ">
-    <img class="little-logo" src="images/logo.png" alt="logo">
-  </a>
 
-  <!-- Right Navigation -->
-  <div class="navbar-wagon-right hidden-xs hidden-sm">
+<!-- visible-xs visible-sm   /   hidden-sm hidden-xs.
 
-    <a href="projects.html" class="navbar-wagon-item navbar-wagon-link">Projects</a>
-    <a href="about.html" class="navbar-wagon-item navbar-wagon-link">About</a>
-    <a href="contact.html" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+<div class="container">
 
-    <!-- Profile picture with dropdown list -->
-    <div class="navbar-wagon-item">
-      <div class="dropdown">
-        <img src="images/jajajajajaja.jpg" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
-        <!--
-        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        -->
-        </ul>
-      </div>
-    </div>
-  </div>
+  <p>Resize this page to see how the text below changes:</p>
+  <h1 id="push"></h1>
+  <h1 class="visible-sm bg-info">SMALL</h1>
+  <h1 class="visible-md bg-warning">MEDIUM</h1>
+  <h1 class="visible-lg bg-success">LARGE</h1>
 
-  <!-- Dropdown appearing on mobile only -->
-  <div class="navbar-wagon-item hidden-md hidden-lg">
-    <div class="dropdown">
-      <i class="fas fa-bars dropdown-toggle" data-toggle="dropdown" role="button"></i>
-      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
 </div>
+<li id="red"></li>
 
+
+  <br>
+
+
+  <li id="blue"></li>
+
+
+-->
+<!--
+
+<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" id="leftside">
+            <div class="noCollapse">
+            <h1>Title</h1>
+            <p class="roles">text for roles</p>
+            <img src="">
+            </div
+
+            <div class="showHide">
+            <p class="fulldescription">paragraph 1</p>
+            <p class="fulldescription">paragraph 2</p>
+            <img src="">
+            </div>
+
+            <button type="button" class="btn btn-primary">Show More</button
+
+        </div>
+-->
+
+
+
+
+
+
+
+
+<svg id="stroke" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+  <defs>
+    <path id="line" d="M2 2c49.7 2.6 100 3.1 150 1.7-46.5 2-93 4.4-139.2 7.3 45.2-1.5 90.6-1.8 135.8-.6" fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+  </defs>
+</svg>
+
+
+
+<label id="big" class="dropdown">
+    <div class="enso animated bounceInUp">
+      <%= image_tag  "black-trans-enso.png" %>
+    </div>
+
+
+  <input type="checkbox" class="dd-input" id="test">
+
+  <ul class="dd-menu"  >
+    <li>
+      <a class="btn" href="index.html">Home
+        <svg class="button-stroke" viewBox="0 0 154 13">
+          <use href="#line"></use>
+        </svg>
+        <svg class="button-stroke" viewBox="0 0 154 13">
+          <use href="#line"></use>
+        </svg>
+      </a>
+    </li>
+
+
+    <li>
+      <a class="btn" href="about.html">About
+        <svg class="button-stroke" viewBox="0 0 154 13">
+          <use href="#line"></use>
+        </svg>
+        <svg class="button-stroke" viewBox="0 0 154 13">
+          <use href="#line"></use>
+        </svg>
+      </a>
+    </li>
+
+    <li >
+      <a class="btn" href="contact.html">Contact
+          <svg class="button-stroke" viewBox="0 0 154 13">
+            <use href="#line"></use>
+          </svg>
+          <svg class="button-stroke" viewBox="0 0 154 13">
+            <use href="#line"></use>
+          </svg>
+        </a>
+      </li>
+
+    <li>
+      <a class="btn" href="projects.html">More
+          <svg class="button-stroke" viewBox="0 0 154 13">
+            <use href="#line"></use>
+          </svg>
+          <svg class="button-stroke" viewBox="0 0 154 13">
+            <use href="#line"></use>
+          </svg>
+        </a>
+    </li>
+  </ul>
+
+</label>
+
+<!--NAVBAR ONLY ON SMALL DEVICES   -->
+<label id="small" class="dropdown">
+    <div class="enso animated bounceInUp">
+      <%= image_tag  "black-trans-enso.png" %>
+    </div>
+
+
+  <input type="checkbox" class="dd-input" id="test">
+
+  <ul class="dd-menu"  >
+    <li>
+      <a class="btn" href="index.html">Home
+        <svg class="button-stroke" viewBox="0 0 154 13">
+          <use href="#line"></use>
+        </svg>
+        <svg class="button-stroke" viewBox="0 0 154 13">
+          <use href="#line"></use>
+        </svg>
+      </a>
+    </li>
+
+
+    <li>
+      <a class="btn" href="about.html">About
+        <svg class="button-stroke" viewBox="0 0 154 13">
+          <use href="#line"></use>
+        </svg>
+        <svg class="button-stroke" viewBox="0 0 154 13">
+          <use href="#line"></use>
+        </svg>
+      </a>
+    </li>
+
+    <li >
+      <a class="btn" href="contact.html">Contact
+          <svg class="button-stroke" viewBox="0 0 154 13">
+            <use href="#line"></use>
+          </svg>
+          <svg class="button-stroke" viewBox="0 0 154 13">
+            <use href="#line"></use>
+          </svg>
+        </a>
+      </li>
+
+    <li>
+      <a class="btn" href="projects.html">More
+          <svg class="button-stroke" viewBox="0 0 154 13">
+            <use href="#line"></use>
+          </svg>
+          <svg class="button-stroke" viewBox="0 0 154 13">
+            <use href="#line"></use>
+          </svg>
+        </a>
+    </li>
+  </ul>
+
+</label>
+
+
+<script> // script for expand/collapse
+    var expandCollapse = function(){
+        if ( $(window).width() < 768 ) {
+            $(function(){
+                // add a class .collapse to a div .showHide
+                $('.showHide').addClass('collapse');
+                // set display: "" in css for the toggle button .btn.btn-primary
+                $('button.btn.btn-primary').css('display', '');// removes display property to make it visible
+            });
+        }
+        else {
+            $(function(){
+                // remove a class .collapse from a div .showHide
+                $('.showHide').removeClass('collapse');
+                // set display: none in css for the toggle button .btn.btn-primary
+                $('button.btn.btn-primary').css('display', 'none');// hides button display on bigger screen
+            });
+        }
+    }
+    $(window).resize(expandCollapse); // calls the function when the window first loads
+</script>
 
