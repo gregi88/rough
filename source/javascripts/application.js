@@ -24,8 +24,8 @@ function createButton(){
   function animateScroll() {
 
     if( document.scrollingElement.scrollTop > 0) {
-        window.scrollBy(0, -5);
-        setTimeout(animateScroll, 10);
+        window.scrollBy(0, -20);
+        setTimeout(animateScroll, 0,1);
     }
 
 }
