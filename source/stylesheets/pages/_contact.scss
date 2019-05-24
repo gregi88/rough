@@ -1,24 +1,22 @@
 
-
-
 .container1 {
   position: relative;
-    top: 26px;
-/*
+    top: -25px;
+  z-index: -3;
   text-align: center;
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("/images/form2.jpg");
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url("/images/form2.jpg");
   background-size: cover;
-  background-position: center; */
+  background-position: center;
  }
 
 .width {
   max-width: 450px;
   max-height: 500px;
   position: relative;
-  top: 4em;
+  top: 5em;
 
 }
 
@@ -37,7 +35,6 @@
 }
 
 .contact-title {
-
   text-align: left;
   font-size: 32px;
   line-height: 10px;

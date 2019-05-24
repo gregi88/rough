@@ -11,29 +11,14 @@ button.btn.btn-primary{
   //background-color: red !important;
   position: relative !important;
   z-index: 3;
-
-
-
 }
 
-
-/*
-.visible-sm {
-
-  height: 30px;
-  width: 100vw;
-  position: absolute !important;
-  background-color: blue !important;
-
-
-
-}
-
-*/
 
 /* Dropdown */
 
 .dropdown {
+    height: 100px;
+    width: 100px;
     position: absolute;
     right: 30px;
     top: 20px;
@@ -65,13 +50,6 @@ button.btn.btn-primary{
   display: block;
 }
 
-
-
-
-
-
-
-
 /**/
 
 
@@ -86,6 +64,8 @@ button.btn.btn-primary{
  background-repeat: no-repeat;
  background-position: center;
  background-size:cover;
+ animation-iteration-count: infinite;
+ animation-duration: 3s;
 }
 
 /* */
@@ -125,7 +105,7 @@ button.btn.btn-primary{
 
 .button-stroke {
   display: block;
-  width: calc(100% - 40px);
+  width: calc(135% - 80px);
   height: 20px;
   stroke: black;
   position: absolute;
@@ -134,8 +114,8 @@ button.btn.btn-primary{
   stroke-width: 4;
 
   &:nth-child(2) {
-    stroke-dasharray: 650px;
-    stroke-dashoffset: 650px;
+    stroke-dasharray: 2000px;
+    stroke-dashoffset: 2000px;
     stroke: white;
     stroke-width: 5;
     transition: stroke-dashoffset 800ms ease-out;
