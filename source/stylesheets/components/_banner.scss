@@ -7,28 +7,95 @@
   background-size:cover;
   position: relative;
   top: -25px;
-
-
 }
 
+
+a {
+  color: black !important;
+}
+
+.link {
+  transition: all .2s ease-in-out;
+  font-family: 'Permanent Marker', cursive;
+  text-decoration: underline;
+}
+
+.link:hover {
+  transform: scale(1.3);
+}
+
+.marker {
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+
+.container {
+  position: relative;
+  top: -7em;
+}
+
+.img-responsive {
+  //box-shadow: 6px 10px 53px 0px rgba(0,0,0,0.75);
+  border-radius: 3px;
+  //animation: anim-opacity-full 480ms ease-out;
+  //opacity: .5;
+}
+
+
+
+.col-lg-6 {
+  align-items: center;
+}
 
 .box{
   position: relative;
 }
 
-.img-title{
+.push {
+  margin-bottom: 50px;
+}
+
+.display-on-image {
+  font-size: 30px;
+  letter-spacing: 3px;
+  //text-decoration: underline;
+  font-family: 'Permanent Marker', cursive;
+  text-transform: uppercase;
+}
+
+.img-title {
   position: absolute;
-  color: #fff;
+  color: white;
   text-align: center;
   left: 0;
   right: 0;
   top: 1em;
   letter-spacing: 3px;
+  text-shadow: 2px 2px #333;
+
+}
+
+
+.side-text {
+  //position: absolute;
+  color: rgb(60, 60, 60);
+  //text-shadow: 1px 1px #333;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 1em;
+  //letter-spacing: 3px;
+  //background-color: pink;
+  color: black;
+  //box-shadow: 6px 10px 53px 0px rgba(0,0,0,0.75);
+  border-radius: 5px;
+  margin: 10px;
 }
 
 
 
-
+/*
 .banner-hidden {
   //width: 200px;
   //height: 200px;
@@ -40,11 +107,13 @@
 
 }
 
-
 .banner-hidden h5 {
   color: white;
-  text-shadow:2px 2px #333;
+  text-shadow: 2px 2px #333;
 }
+*/
+
+
 
 /*------------------*/
 
@@ -54,13 +123,3 @@
   margin-bottom: 20px;
 }
 
-.red {
-  margin-top: 20px;
-  height: 200px;
-  background-color: red;
-}
-
-.blue {
-  height: 200px;
-  background-color: blue;
-}

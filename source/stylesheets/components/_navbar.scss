@@ -11,9 +11,6 @@ button.btn.btn-primary{
   //background-color: red !important;
   position: relative !important;
   z-index: 3;
-
-
-
 }
 
 
@@ -74,6 +71,11 @@ button.btn.btn-primary{
 
 /**/
 
+img {
+    max-width:100%;
+    height:auto;
+}
+
 
 
 .enso {
@@ -86,6 +88,9 @@ button.btn.btn-primary{
  background-repeat: no-repeat;
  background-position: center;
  background-size:cover;
+ animation-iteration-count: infinite;
+ animation-duration: 1s;
+
 }
 
 /* */
@@ -134,8 +139,8 @@ button.btn.btn-primary{
   stroke-width: 4;
 
   &:nth-child(2) {
-    stroke-dasharray: 650px;
-    stroke-dashoffset: 650px;
+    stroke-dasharray: 1650px;
+    stroke-dashoffset: 1650px;
     stroke: white;
     stroke-width: 5;
     transition: stroke-dashoffset 800ms ease-out;

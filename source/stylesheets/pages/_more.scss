@@ -1,0 +1,26 @@
+.card {
+
+  background-color: red;
+  //border: solid black 1px;
+  border-radius: 4px;
+  padding-bottom: 9px;
+  margin: 0 30px;
+  box-shadow: 8px 9px 5px 0px rgba(0,0,0,0.30);
+  position: relative;
+
+
+    height: 20px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.x {
+  background-color: lavender;
+  height: 100px;
+  text-align: right;
+  position: absolute;
+
+}
