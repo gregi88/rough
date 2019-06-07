@@ -9,6 +9,14 @@
   top: -25px;
 }
 
+
+
+.client {
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
 .scroll-downs {
   position: absolute;
   top: 33em;
@@ -54,6 +62,7 @@ a {
   transition: all .2s ease-in-out;
   font-family: 'Permanent Marker', cursive;
   text-decoration: underline;
+  padding-bottom: 40px;
 }
 
 .link:hover {
@@ -62,6 +71,7 @@ a {
 
 .marker {
   font-family: 'Permanent Marker', cursive;
+  color: black !important;
 }
 
 
