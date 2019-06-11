@@ -58,15 +58,21 @@ a {
   color: black !important;
 }
 
+.pop-up:hover{
+  transform: scale(1.02);
+  transition: all .2s ease-in-out;
+}
+
 .link {
   transition: all .2s ease-in-out;
   font-family: 'Permanent Marker', cursive;
-  text-decoration: underline;
+  text-decoration: none !important;
   padding-bottom: 40px;
 }
 
 .link:hover {
   transform: scale(1.3);
+  text-decoration: none !important;
 }
 
 .marker {
@@ -162,10 +168,4 @@ a {
 
 
 /*------------------*/
-
-.row {
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-bottom: 20px;
-}
 
