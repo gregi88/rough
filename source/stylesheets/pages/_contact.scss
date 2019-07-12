@@ -1,12 +1,13 @@
+
 .container1 {
   position: relative;
-    top: -25px;
-  z-index: -3;
+  top: -25px;
+  //z-index: -3;
   text-align: center;
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url("/images/form2.jpg");
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url("/images/form2-optimized.jpg");
   background-size: cover;
   background-position: center;
  }
@@ -37,7 +38,7 @@
   text-align: left;
   font-size: 32px;
   line-height: 10px;
-  color: white;
+  color: red;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
@@ -84,7 +85,7 @@ form {
   border: 2px solid black;
   border-radius: 4px;
   color: white;
-  background: #89EDEC;
+  background: $my-red;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;

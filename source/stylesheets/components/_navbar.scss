@@ -1,38 +1,14 @@
-button.btn.btn-primary{
-    display: none;/*value will change via javascript. setting the value to "" removes this attribute.*/
-}
 
 .visible-xs {
-  //display: block !important;
-  //height: 20px;
-  //width: 100vw;
-
-  //position: absolute !important;
-  //background-color: red !important;
   position: relative !important;
   z-index: 3;
 }
-
-
-/*
-.visible-sm {
-
-  height: 30px;
-  width: 100vw;
-  position: absolute !important;
-  background-color: blue !important;
-
-
-
-}
-
-*/
 
 /* Dropdown */
 
 .dropdown {
     position: absolute;
-    right: 30px;
+    right: 18px;
     top: 20px;
     z-index: 3;
     float: right;
@@ -96,26 +72,26 @@ img {
 /* */
 
 
-
-
 .btn {
   float: right;
   position: relative;
-  top: -78px;
-  right: 8px;
+  top: -72px;
+  right: 13px;
   display: inline-block;
-  color: black;
+  color: $my-red !important;
   background-color: transparent !important;
   min-width: 148px;
   text-decoration: none;
   padding-right: 0;
   margin-right: 0;
-  margin-top: 31px;
+  margin-top: 22px;
   padding-top: 10px;
   text-align: center;
   cursor: pointer;
+  letter-spacing: 3px;
   font-family: 'Permanent Marker', cursive;
-  font-size: 28px;
+  font-size: 20px;
+
 
 
 
@@ -123,26 +99,31 @@ img {
     .button-stroke:nth-child(2) {
       stroke-dashoffset: 0;
       background-color: transparent;
+      color: black !important
 
     }
   }
 }
 
+.btn:hover {
+  color: black !important;
+}
+
 .button-stroke {
   display: block;
-  width: calc(100% - 40px);
+  width: calc(86% - 40px);
   height: 20px;
   stroke: black;
   position: absolute;
-  left: 20px;
+  left: 35px;
   bottom: -10px;
-  stroke-width: 4;
+  stroke-width: 2.5px;
 
   &:nth-child(2) {
     stroke-dasharray: 1650px;
     stroke-dashoffset: 1650px;
-    stroke: white;
-    stroke-width: 5;
+    stroke: $my-red;
+    stroke-width: 2px;
     transition: stroke-dashoffset 800ms ease-out;
   }
 }

@@ -1,7 +1,7 @@
 .backToTop {
     padding: 0px 11px;
-
     border-radius: 50%;
+    border-color: $my-red;
     height: 38px;
     opacity: 0.8;
     -webkit-transition: visibility 0.2s, opacity 0.2s;
@@ -12,7 +12,7 @@
     cursor: pointer;
     font: 14px/1 Tahoma, Arial, sans-serif;
     background: rgba(0, 0, 0, 0.9);
-    color: white;
+    color: $my-red;
     font-size: 20px;
     -webkit-transition: width 1s, background 0.5s 0.1s;
     transition: width 1s, background 0.5s 0.1s;

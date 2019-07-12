@@ -55,23 +55,27 @@
 }
 
 .about {
+  position: relative;
+    top: 5em;
   height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  //background-image: linear-gradient(0deg, white 50%, white 50%), url("/images/form.jpg");
+  background-image: url("/images/form.jpg");
 
   img {
-    width: 200px;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
-    border-radius: 50%;
+    //height: 235px;
+    //width: 200px;
+    //box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    border-radius: 3px;
   }
 
 
 
-  .fa-heart {
+
+.fa-heart {
     color: #D23333;
   }
   }

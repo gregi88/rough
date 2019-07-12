@@ -5,11 +5,11 @@
   justify-content: space-between;
   height: 100px;
   padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
   position: relative;
-  bottom: -10em;
+  bottom: -13em;
   margin-left: 20px;
   margin-right: 0px;
+
 }
 .footer-links {
   display: flex;
@@ -18,17 +18,15 @@
 
 }
 .footer-links a {
-  color: black;
-  opacity: 0.15;
+  color: $my-red;
+  //opacity: 0.15;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
 }
+
 .footer-links a:hover {
   opacity: 1;
-}
-.footer .fa-heart {
-  color: #D23333;
 }
 
 
@@ -110,6 +108,7 @@ $lg: 64rem;
     }
   }
   span {
+
     position: absolute;
     top: 0;
     left: 0;
@@ -118,11 +117,12 @@ $lg: 64rem;
     justify-content: center;
     width: 100%;
     height: 100%;
-    color: $white;
+    color: $my-red; //red
+    letter-spacing: 3px;
     font-family: 'Permanent Marker', cursive;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 700;
-    opacity: 1;
+    //opacity: 1;
     transition: opacity 0.25s;
     z-index: 2;
   }
@@ -133,7 +133,7 @@ $lg: 64rem;
     justify-content: center;
     width: 25%;
     height: 100%;
-    color: $white;
+    color: $my-red !important ;
     font-size: 24px;
     text-decoration: none;
     transition: 0.25s;
